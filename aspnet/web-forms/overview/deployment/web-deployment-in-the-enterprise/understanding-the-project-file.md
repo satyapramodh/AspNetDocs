@@ -65,7 +65,7 @@ This shows the relationship between the key elements in an MSBuild project file:
 
 ### The Project Element
 
-The [Project](https://msdn.microsoft.com/library/bcxfsh87.aspx) element is the root element of every project file. In addition to identifying the XML schema for the project file, the **Project** element can include attributes to specify the entry points for the build process. For example, in the [Contact Manager sample solution](the-contact-manager-solution.md), the *Publish.proj* file specifies that the build should start by calling the target named **FullPublish**.
+The [Project](https://docs.microsoft.com/en-us/visualstudio/msbuild/project-element-msbuild?view=vs-2022) element is the root element of every project file. In addition to identifying the XML schema for the project file, the **Project** element can include attributes to specify the entry points for the build process. For example, in the [Contact Manager sample solution](the-contact-manager-solution.md), the *Publish.proj* file specifies that the build should start by calling the target named **FullPublish**.
 
 [!code-xml[Main](understanding-the-project-file/samples/sample1.xml)]
 
